@@ -13,4 +13,6 @@ REACT! => https://github.com/StephenGrider/redux-code
     A react component is a function or a class that produces HTML using JSX and handles feedback from the user using event handlers 
 
     JSX!
-        
+       single brackets for variables, double for object then variables  
+       can't reference object in jsx unless properly notated
+       check chrome console for bugs regarding html conversion with attributes
