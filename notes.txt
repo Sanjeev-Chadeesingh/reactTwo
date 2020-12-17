@@ -16,3 +16,12 @@ REACT! => https://github.com/StephenGrider/redux-code
        single brackets for variables, double for object then variables  
        can't reference object in jsx unless properly notated
        check chrome console for bugs regarding html conversion with attributes
+
+    3 Tenets of Components!
+        Component Nesting-they can be shown inside one another
+        Component Reusability-they should be reused throughout an app
+        Component Configuration-we should be able to configure a component when it is created
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    npm install --save faker
+        fake data generation
