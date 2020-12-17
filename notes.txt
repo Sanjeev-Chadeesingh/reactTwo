@@ -25,3 +25,16 @@ REACT! => https://github.com/StephenGrider/redux-code
 
     npm install --save faker
         fake data generation
+
+            *Component Hierarchy*
+                    App
+                |     |                |
+            showName/time
+                v     v                v
+    commentDetail commentDetail commentDetail
+
+        Props!
+            system for passing data from a parent component to a child component
+                from parent(provider) to child(consumer):
+                <CommentDetail propName="propValue" />
+            goal is to customize or configure a child component 
