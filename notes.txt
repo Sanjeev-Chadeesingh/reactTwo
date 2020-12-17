@@ -1,0 +1,14 @@
+REACT! => https://github.com/StephenGrider/redux-code
+    create-react-app projectName
+    Starting CRA - npm start from project directory
+    Stopping CRA - control+C
+
+    delete everything in src file
+    touch index.js
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    const Component()
+    ReactDOM.render(<Component />,  document.getElementById('root'))
+
+    A react component is a function or a class that produces HTML using JSX and handles feedback from the user using event handlers 
+
