@@ -38,3 +38,9 @@ REACT! => https://github.com/StephenGrider/redux-code
                 from parent(provider) to child(consumer):
                 <CommentDetail propName="propValue" />
             goal is to customize or configure a child component 
+
+            CommentDetail+ApprovalCard  
+                we added ApprovalCard component, and wrapped CommentDetail in it. Now, when we log the children props of the ApprovalCard, it has inherited the props of the CommentDetail component as its children props
+
+                commentdetail has now been passed as a prop to the approvalcard, via the wrapping. pass props.children into the content of approvalcard, and now the commentdetail is showing up within the approvalcard 
+
