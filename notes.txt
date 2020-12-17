@@ -12,3 +12,5 @@ REACT! => https://github.com/StephenGrider/redux-code
 
     A react component is a function or a class that produces HTML using JSX and handles feedback from the user using event handlers 
 
+    JSX!
+        
